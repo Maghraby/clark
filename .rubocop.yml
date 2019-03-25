@@ -1,0 +1,13 @@
+AllCops:
+  Include:
+    - 'app/**/*.rb'
+    - 'services/*.rb'
+  Exclude:
+    - 'Gemfile'
+    - 'bin/**/*'
+    - 'spec/**/*.rb'
+    - 'vendor/**/*'
+    - 'config/**/*.rb'
+
+Documentation:
+    Enabled: false
